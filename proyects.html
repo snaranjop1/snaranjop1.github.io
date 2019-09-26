@@ -1,118 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!--Required meta tags-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!--Meta for SEO optimization-->
-    <meta name="description" content="Web Developer Portfolio">
-    <meta name="keywords" content="HTML,CSS,JavaScript">
-    <meta name="author" content="Sergio Naranjo Puentes">
-    <meta name="title" content="Sergio Naranjo Puentes Portfolio">
+    <meta name="description" content="Web Developer Portfolio" />
+    <meta name="keywords" content="HTML,CSS,JavaScript" />
+    <meta name="author" content="Sergio Naranjo Puentes" />
+    <meta name="title" content="Sergio Naranjo Puentes Portfolio" />
 
     <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <!--Favicon-->
     <link rel="shortcut icon" type="image/png" href="images/logo.png" />
     <!--CSS-->
     <link rel="stylesheet" href="/styles/styles.css" />
 
     <title>My Work</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!--Slidein/out menu-->
     <div class="container-fluid menu">
-        <ul class="menu-nav">
-            <li class="nav-item current">
-                <a href="index.html" class="nav-link">
-                    Home
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="about.html" class="nav-link">
-                    About Me
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="proyects.html" class="nav-link">
-                    My Work
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="contact.html" class="nav-link">
-                    How To Reach Me
-                </a>
-            </li>
-        </ul>
+      <ul class="menu-nav">
+        <li class="nav-item current">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">
+            About Me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="proyects.html" class="nav-link">
+            My Work
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">
+            How To Reach Me
+          </a>
+        </li>
+      </ul>
     </div>
 
     <!--logo and menu images-->
     <header>
-        <div class="container-fluid">
-            <a href="index.html"><img src="./images/logo.png" alt="logo" id="logo" /></a>
-            <img src="./images/menu.png" alt="menu-img" id="menu-img" />
-        </div>
+      <div class="container-fluid">
+        <a href="index.html"
+          ><img src="./images/logo.png" alt="logo" id="logo"
+        /></a>
+        <img src="./images/menu.png" alt="menu-img" id="menu-img" />
+      </div>
     </header>
 
     <!--My past proyects presented in Bootstrap cards-->
     <main>
-        <div class="container-fluid">
-            <div class="overlay"></div>
-            <div class="container" id="proyects-container">
-                <div class="card-columns">
-                    <div class="card">
-                        <img src="/images/photo-blog.jpg" class="card-img-top" alt="proyect-img" id="photo-blog">
-                        <div class="card-body">
-                            <h2 class="card-title">Photo Blog</h2>
-                            <p class="card-text">Basic HTML and CSS photo blog</p>
-                            <a href="https://github.com/snaranjop1/Photo-Blog" class="btn btn-outline-warning"
-                                id="proyect-repo">Github</a>
-                        </div>
-                    </div>
-                    <h1 id="my-work-title">My Work</h1>
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <h5 class="card-title">Los Toderos</h5>
-                            <p class="card-text">Web application to find house keeping services.
-                            </p>
-                            <p class="card-text"><small class="text-muted">-Software development class
-                                    Proyect-</small></p>
-                        </div>
-                    </div>
-                    <div class="card text-center p-3">
-                        <blockquote class="blockquote">
-                            <p><em>I love your work. You are the best computer guy in the world.</em>
-                            </p>
-                            <footer class="blockquote-footer">
-                                <small>
-                                    My Mom
-                                </small>
-                            </footer>
-                        </blockquote>
-                    </div>
-                    <div class="card">
-                        <img src="/images/Startup@2x.png" class="card-img-top" alt="proyect-img">
-                        <div class="card-body">
-                            <h2 class="card-title">Startup Landing Page</h2>
-                            <p class="card-text">Landing Page for a startup created in a web development course i
-                                did in udemy</p>
-                        </div>
-                    </div>
-                </div>
+      <div class="container-fluid">
+        <div class="overlay"></div>
+        <div class="container" id="proyects-container">
+          <div class="card-columns">
+            <div class="card">
+              <img
+                src="/images/photo-blog.jpg"
+                class="card-img-top"
+                alt="proyect-img"
+                id="photo-blog"
+              />
+              <div class="card-body">
+                <h2 class="card-title">Photo Blog</h2>
+                <p class="card-text">Basic HTML and CSS photo blog</p>
+                <a
+                  href="https://github.com/snaranjop1/Photo-Blog"
+                  class="btn btn-outline-warning"
+                  id="proyect-repo"
+                  >Github</a
+                >
+              </div>
             </div>
+            <h1 id="my-work-title">My Work</h1>
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">Los Toderos</h5>
+                <p class="card-text">
+                  Web application to find house keeping services.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted"
+                    >-Software development class Proyect-</small
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="card text-center p-3">
+              <blockquote class="blockquote">
+                <p>
+                  <em
+                    >I love your work. You are the best computer guy in the
+                    world.</em
+                  >
+                </p>
+                <footer class="blockquote-footer">
+                  <small>
+                    My Mom
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card">
+              <img
+                src="/images/proyect-roomies.jpg"
+                class="card-img-top"
+                alt="proyect-img"
+                id="photo-blog"
+              />
+              <div class="card-body">
+                <h2 class="card-title">Roomies Web App</h2>
+                <p class="card-text">
+                  This project is created to help keep track of the finances and
+                  the tasks of the house.
+                </p>
+                <a
+                  href="https://github.com/snaranjop1/roomies"
+                  class="btn btn-outline-warning"
+                  id="proyect-repo"
+                  >Github</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </main>
 
     <!--Javascript-->
     <script src="/scripts/main.js"></script>
-</body>
-
+  </body>
 </html>
