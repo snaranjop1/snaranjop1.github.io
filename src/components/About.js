@@ -25,8 +25,8 @@ export default function About(props) {
             >
               <span>Ultrasoccer</span>
             </a>
-            . I like to build top quality software, beatiful UI’s and enhancing
-            experiences.
+            . Furthermore, I like to build top quality software, beautiful UI’s
+            and enhancing experiences.
           </span>
           <br />
           <br />
@@ -38,9 +38,9 @@ export default function About(props) {
           joy of putting something on the internet while I was still in college.
           <br />
           <br />
-          Since the begining of my journey i’ve been interested in web
-          development, specially in frontend development because i love the
-          UI/UX design. I also have backend development experience but the
+          Since the beginning of my journey I’ve been interested in web
+          development, specially in frontend development because I love the
+          UI/UX design. I also have backend development experience, but the
           designer in me prefers to work in frontend.
           <br />
           <br />

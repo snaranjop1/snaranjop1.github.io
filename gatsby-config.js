@@ -29,7 +29,7 @@ module.exports = {
         name: "BitCloud",
         techStack: "React • API • SEO • Accesibility • Performance",
         desc:
-          "Bitcloud consumes a cryptocurrency API to show datat about digital coins and also is a website that scores 100% across all categories on the Chrome Lighthouse audit report.",
+          "Bitcloud consumes a cryptocurrency API to show data about digital coins and also is a website that scores 100% across all categories on the Chrome Lighthouse audit report.",
         link: "https://github.com/snaranjop1",
       },
       {
@@ -39,7 +39,7 @@ module.exports = {
         name: "Banky",
         techStack: "Angular • Sass • Mockup • Typescript",
         desc:
-          "For this website i took an online design of a banking web app and tried to replicate it. This app uses mock data.",
+          "For this website, I took an online design of a banking web app and tried to replicate it. This app uses mock data.",
         link: "https://github.com/snaranjop1",
       },
       {

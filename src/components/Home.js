@@ -25,8 +25,8 @@ export default function Home(props) {
         >
           <span>Ultrasoccer</span>
         </a>
-        . I like to build top quality software, beatiful UI’s and enhancing
-        experiences.
+        . Furthermore, I like to build top quality software, beautiful UI’s and
+        enhancing experiences.
       </p>
       <p className="py-6 font-light text-gray text-xl w-full xl:w-7/12">
         Already interested? Check my work and feel free to{" "}

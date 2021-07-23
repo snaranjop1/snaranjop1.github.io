@@ -7,8 +7,8 @@ export default function Skills() {
         <h1 className="font-black text-4xl md:text-5xl uppercase">Skills</h1>
         <div>
           <p className="pt-6 font-regular w-full xl:w-2/5">
-            In all my developer life i've worked with different tools and
-            technologies obtaining some experience and skills in web
+            In all my developer life, I've worked with different tools and
+            technologies, obtaining some experience and skills in web
             development. I also love to learn about new or upcoming
             technologies.
           </p>
@@ -61,7 +61,7 @@ export default function Skills() {
         </div>
         <div>
           <div className="flex flex-row py-2 font-medium text-sm items-center">
-            <h5 className="pr-2 text-orange">04</h5>
+            <h5 className="pr-2 text-orange">05</h5>
             <div className="bg-orange h-0.5 w-1/5"></div>
           </div>
           <h2 className="font-bold text-2xl">Software Development & More</h2>
