@@ -1,5 +1,7 @@
 import { graphql } from "gatsby"
 import React from "react"
+import { Helmet } from "react-helmet"
+
 import About from "../components/About"
 import Footer from "../components/Footer"
 import Home from "../components/Home"
@@ -12,6 +14,19 @@ export default function App({ data }) {
 
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Sergio Naranjo - Full Stack Developer</title>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="description" content="Full Stack Developer" />
+        <meta
+          name="keyword"
+          content="portfolio, javascript, developer, full stack, sergio"
+        />
+      </Helmet>
       <Navbar />
       <Home
         job={metadata.job}
