@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
   plugins: ["gatsby-plugin-postcss", "gatsby-plugin-react-helmet"],
   siteMetadata: {
-    job: "Frontend Developer",
+    job: "Software Engineer",
     company: "Appspring Technologies",
     companyUrl: "https://www.appspringtech.com/",
     projects: [
@@ -46,8 +46,8 @@ module.exports = {
         id: 4,
         img:
           "https://cdn.dribbble.com/users/1418924/screenshots/15752874/media/cfb98399f55c662036fdd99f5846e541.png",
-        name: "Warehouse",
-        techStack: "React JS • Excel Sheets • Node JS • Typescript • Express",
+        name: "Storeforce",
+        techStack: "React JS",
         desc:
           "This app allows the user to easily keep track of their inventory, manage it and have their own catalogue of selling items.",
         link: "https://github.com/snaranjop1",
