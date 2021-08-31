@@ -5,13 +5,13 @@ export default function Home(props) {
   return (
     <div className="py-16 md:py-24 2xl:py-32 bg-black text-white gnrl-padding">
       <h1 className="mb-9 font-black text-6xl md:text-9xl uppercase leading-extra-loose">
-        Full Stack
+        Software
         <br />
-        Developer
+        Engineer
       </h1>
       <p className="font-light text-gray text-xl w-full xl:w-7/12">
-        I’m Sergio Naranjo – a Full Stack Developer from Colombia. I currently
-        work as a {props.job} at{" "}
+        I’m Sergio Naranjo – a Software Engineer from Colombia. I currently work
+        as a {props.job} at{" "}
         <a
           className="text-white border-solid border-b-2 border-orange hover:bg-orange transition-colors"
           href={props.companyUrl}
@@ -23,7 +23,7 @@ export default function Home(props) {
           className="text-white border-solid border-b-2 border-orange hover:bg-orange transition-colors"
           href="https://github.com/snaranjop1"
         >
-          <span>Ultrasoccer</span>
+          <span>Storeforce</span>
         </a>
         . Furthermore, I like to build top quality software, beautiful UI’s and
         enhancing experiences.

@@ -8,7 +8,7 @@ module.exports = {
   /* Your site config here */
   plugins: ["gatsby-plugin-postcss", "gatsby-plugin-react-helmet"],
   siteMetadata: {
-    job: "Software Engineer",
+    job: "Frontend Developer",
     company: "Appspring Technologies",
     companyUrl: "https://www.appspringtech.com/",
     projects: [
