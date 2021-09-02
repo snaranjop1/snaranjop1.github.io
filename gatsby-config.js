@@ -15,11 +15,11 @@ module.exports = {
       {
         id: 1,
         img:
-          "https://cdn.dribbble.com/users/5087733/screenshots/15442587/media/b192db2f37e3f16a4d247014d2bdfe59.png?compress=1&resize=1600x1200",
-        name: "Ultrasoccer",
-        techStack: "React • Node JS • Express",
+          "https://cdn.dribbble.com/users/1418924/screenshots/15752874/media/cfb98399f55c662036fdd99f5846e541.png",
+        name: "Storeforce",
+        techStack: "React JS • Tailwind CSS • Firebase (Backend & Hosting)",
         desc:
-          "Ultrasoccer is a website that makes visualizations over the FiftyThirtyEight soccer match predictions data.",
+          "This app allows the user to easily keep track of their inventory, manage it and have their own catalogue of selling items.",
         link: "https://github.com/snaranjop1",
       },
       {
@@ -35,21 +35,21 @@ module.exports = {
       {
         id: 3,
         img:
-          "https://cdn.dribbble.com/users/4522101/screenshots/15645311/media/f9067b98b6e8f51c2370ed879ac9a272.jpg?compress=1&resize=1600x1200",
-        name: "Banky",
-        techStack: "Angular • Sass • Mockup • Typescript",
+          "https://cdn.dribbble.com/users/5087733/screenshots/15442587/media/b192db2f37e3f16a4d247014d2bdfe59.png?compress=1&resize=1600x1200",
+        name: "Devfinder",
+        techStack: "React • Node JS • Github API",
         desc:
-          "For this website, I took an online design of a banking web app and tried to replicate it. This app uses mock data.",
+          "Ultrasoccer is a website that makes visualizations over the FiftyThirtyEight soccer match predictions data.",
         link: "https://github.com/snaranjop1",
       },
       {
         id: 4,
         img:
-          "https://cdn.dribbble.com/users/1418924/screenshots/15752874/media/cfb98399f55c662036fdd99f5846e541.png",
-        name: "Storeforce",
-        techStack: "React JS",
+          "https://cdn.dribbble.com/users/4522101/screenshots/15645311/media/f9067b98b6e8f51c2370ed879ac9a272.jpg?compress=1&resize=1600x1200",
+        name: "Findipy",
+        techStack: "React • Sass • API",
         desc:
-          "This app allows the user to easily keep track of their inventory, manage it and have their own catalogue of selling items.",
+          "For this website, I took an online design of a banking web app and tried to replicate it. This app uses mock data.",
         link: "https://github.com/snaranjop1",
       },
     ],

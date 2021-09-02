@@ -13,7 +13,7 @@ export default function App({ data }) {
   let metadata = data.site.siteMetadata
 
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Sergio Naranjo - Full Stack Developer</title>

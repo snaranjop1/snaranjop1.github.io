@@ -9,25 +9,27 @@ export default function About(props) {
       </h1>
       <div className="flex xl:py-0 xl:gap-24 flex-col xl:flex-row">
         <p className="font-light text-lg order-2 xl:order-1 py-8">
-          <span className="font-light text-xl">
-            I’m Sergio Naranjo – a Software Engineer from Colombia. I currently
-            work as a {props.job} at{" "}
-            <a
-              className="font-medium border-solid border-b-2 border-orange hover:bg-orange transition-colors"
-              href={props.companyUrl}
-            >
-              <span>{props.company}</span>
-            </a>{" "}
-            and run{" "}
-            <a
-              className="font-medium border-solid border-b-2 border-orange hover:bg-orange transition-colors"
-              href="https://github.com/snaranjop1"
-            >
-              <span>Storeforce</span>
-            </a>
-            . Furthermore, I like to build top quality software, beautiful UI’s
-            and enhancing experiences.
-          </span>
+          <em>
+            <span className="font-light text-xl">
+              I’m Sergio Naranjo – a Software Engineer from Colombia. I
+              currently work as a {props.job} at{" "}
+              <a
+                className="font-medium border-solid border-b-2 border-orange hover:bg-orange transition-colors"
+                href={props.companyUrl}
+              >
+                <span>{props.company}</span>
+              </a>{" "}
+              and run{" "}
+              <a
+                className="font-medium border-solid border-b-2 border-orange hover:bg-orange transition-colors"
+                href="https://github.com/snaranjop1"
+              >
+                <span>Storeforce</span>
+              </a>
+              . Furthermore, I like to build top quality software, beautiful
+              UI’s and enhancing experiences.
+            </span>
+          </em>
           <br />
           <br />
           I grew up in a very small town in Colombia called Manizales and moved

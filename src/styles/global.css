@@ -35,6 +35,10 @@
 @tailwind utilities;
 
 @layer utilities {
+  html {
+    scroll-behavior: smooth;
+  }
+
   .gnrl-padding {
     padding-right: 10vw;
     padding-left: 10vw;
