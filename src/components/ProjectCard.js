@@ -10,7 +10,7 @@ export default function ProjectCard(props) {
         alt="project-img"
       ></img>
       <div className="py-8">
-        <a href="https://dribbble.com/WeirdoWizard/projects/3052136-GraphCMS">
+        <a href={props.url2} target="_blank" rel="noreferrer">
           <h4 className="text-2xl font-bold hover:text-orange w-max">
             {props.name}
           </h4>
@@ -20,7 +20,12 @@ export default function ProjectCard(props) {
         </div>
         <p className="text-lg font-regular">{props.desc}</p>
       </div>
-      <a className="flex flex-row group w-max" href={props.url}>
+      <a
+        className="flex flex-row group w-max"
+        href={props.url}
+        target="_blank"
+        rel="noreferrer"
+      >
         <div className="text-lg font-medium text-orange">
           See project on Github
         </div>

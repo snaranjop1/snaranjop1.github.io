@@ -12,6 +12,7 @@ export default function Work(props) {
           desc={project.desc}
           techStack={project.techStack}
           url={project.link}
+          url2={project.link2}
         />
       )
     })

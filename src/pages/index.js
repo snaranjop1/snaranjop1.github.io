@@ -59,6 +59,7 @@ export const query = graphql`
           techStack
           name
           link
+          link2
         }
       }
     }

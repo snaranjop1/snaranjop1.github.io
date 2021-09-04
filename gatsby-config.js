@@ -21,6 +21,7 @@ module.exports = {
         desc:
           "This app allows the user to easily keep track of their inventory, manage it and have their own catalogue of selling items.",
         link: "https://github.com/snaranjop1",
+        link2: "https://github.com/snaranjop1",
       },
       {
         id: 2,
@@ -31,6 +32,7 @@ module.exports = {
         desc:
           "Bitcloud consumes a cryptocurrency API to show data about digital coins and also is a website that scores 100% across all categories on the Chrome Lighthouse audit report.",
         link: "https://github.com/snaranjop1",
+        link2: "https://github.com/snaranjop1",
       },
       {
         id: 3,
@@ -41,16 +43,18 @@ module.exports = {
         desc:
           "Ultrasoccer is a website that makes visualizations over the FiftyThirtyEight soccer match predictions data.",
         link: "https://github.com/snaranjop1",
+        link2: "https://github.com/snaranjop1",
       },
       {
         id: 4,
-        img:
-          "https://cdn.dribbble.com/users/4522101/screenshots/15645311/media/f9067b98b6e8f51c2370ed879ac9a272.jpg?compress=1&resize=1600x1200",
+        img: "./findipy.png",
         name: "Findipy",
-        techStack: "React • Sass • API",
+        techStack:
+          "React • Bootstrap • Mapboxgl • IP Geolocation API • Vercel (Deployment)",
         desc:
-          "For this website, I took an online design of a banking web app and tried to replicate it. This app uses mock data.",
-        link: "https://github.com/snaranjop1",
+          "With this website any user can track down the geolocation of an IP address or domain name. It fetches the data of the given IP from IPify and then shows the data on a map made with Mapboxgl.",
+        link: "https://github.com/snaranjop1/findipy",
+        link2: "https://findipy.vercel.app/",
       },
     ],
   },
