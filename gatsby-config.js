@@ -36,14 +36,13 @@ module.exports = {
       },
       {
         id: 3,
-        img:
-          "https://cdn.dribbble.com/users/5087733/screenshots/15442587/media/b192db2f37e3f16a4d247014d2bdfe59.png?compress=1&resize=1600x1200",
+        img: "./devfinder.png",
         name: "Devfinder",
-        techStack: "React • Node JS • Github API",
+        techStack: "Vue.js 3 • Github API • Flexbox • Vercel (Deployment)",
         desc:
-          "Ultrasoccer is a website that makes visualizations over the FiftyThirtyEight soccer match predictions data.",
-        link: "https://github.com/snaranjop1",
-        link2: "https://github.com/snaranjop1",
+          "Devfinder allows to search public info of any github user. This website uses the Github API to fetch the info.",
+        link: "https://github.com/snaranjop1/devfinder",
+        link2: "https://devfinder-kappa.vercel.app/",
       },
       {
         id: 4,
