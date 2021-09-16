@@ -22,8 +22,8 @@ export default function Skills() {
           </div>
           <h2 className="font-bold text-2xl">Frontend Technologies</h2>
           <p className="font-regular text-lg py-3 opacity-75">
-            React, Angular, Sass, Server Side Rendering, HTML, CSS, Javascript,
-            Gatsby, Next.js, Typescript, ES6.
+            React, Angular, Vue, Sass, Server Side Rendering, HTML, CSS,
+            Javascript, Gatsby, Next.js, Typescript, ES6.
           </p>
         </div>
         <div>

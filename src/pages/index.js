@@ -16,15 +16,15 @@ export default function App({ data }) {
     <div className="overflow-x-hidden">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Sergio Naranjo - Full Stack Developer</title>
+        <title>Sergio Naranjo - Software Engineer</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <meta name="description" content="Full Stack Developer" />
+        <meta name="description" content="Software Engineer" />
         <meta
           name="keyword"
-          content="portfolio, javascript, developer, full stack, sergio"
+          content="portfolio, javascript, developer, frontends, sergio, software"
         />
       </Helmet>
       <Navbar />
@@ -32,6 +32,7 @@ export default function App({ data }) {
         job={metadata.job}
         company={metadata.company}
         companyUrl={metadata.companyUrl}
+        mainProjectUrl={metadata.projects[0].link}
       />
       <Work projects={metadata.projects} />
       <About

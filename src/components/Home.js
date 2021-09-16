@@ -21,7 +21,7 @@ export default function Home(props) {
         and run{" "}
         <a
           className="text-white border-solid border-b-2 border-orange hover:bg-orange transition-colors"
-          href="https://github.com/snaranjop1"
+          href={props.mainProjectUrl}
         >
           <span>Storeforce</span>
         </a>
