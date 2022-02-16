@@ -29,7 +29,7 @@ export default function Home(props) {
         enhancing experiences.
       </p>
       <p className="py-6 font-light text-gray text-xl w-full xl:w-7/12">
-        Already interested? Check my work and feel free to{" "}
+        Already interested? Check my work and{" "}
         <Link
           className="text-white border-solid border-b-2 border-orange hover:bg-orange transition-colors"
           to="/#contact"
