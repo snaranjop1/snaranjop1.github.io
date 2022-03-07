@@ -18,12 +18,12 @@ export default function Home(props) {
         >
           <span>{props.company}</span>
         </a>{" "}
-        and run{" "}
+        and proudly run{" "}
         <a
           className="text-white border-solid border-b-2 border-orange hover:bg-orange transition-colors"
           href={props.mainProjectUrl}
         >
-          <span>Storeforce</span>
+          <span>StpidBits</span>
         </a>
         . Furthermore, I like to build top quality software, beautiful UI’s and
         enhancing experiences.

@@ -23,7 +23,7 @@ export default function Navbar() {
       </ul>
       <ul className="flex flex-row items-center">
         <li className="opacity-30 hover:opacity-100">
-          <a href="https://twitter.com/snaranjop1">
+          <a href="https://twitter.com/naranhack">
             <img src={twitter} className="h-5" alt="twitter-logo" />
           </a>
         </li>

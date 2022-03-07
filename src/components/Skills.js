@@ -7,7 +7,7 @@ export default function Skills() {
         <h1 className="font-black text-4xl md:text-5xl uppercase">Skills</h1>
         <div>
           <p className="pt-6 font-regular w-full xl:w-2/5">
-            In all my developer life, I've worked with different tools and
+            In my developer journey, I've worked with different tools and
             technologies, obtaining some experience and skills in web
             development. I also love to learn about new or upcoming
             technologies.
@@ -22,8 +22,7 @@ export default function Skills() {
           </div>
           <h2 className="font-bold text-2xl">Frontend Technologies</h2>
           <p className="font-regular text-lg py-3 opacity-75">
-            React, Angular, Vue, Sass, Server Side Rendering, HTML, CSS,
-            Javascript, Gatsby, Next.js, Typescript, ES6.
+            Javascript, React, Angular, Sass, HTML, CSS, Typescript, ES6.
           </p>
         </div>
         <div>
@@ -33,8 +32,8 @@ export default function Skills() {
           </div>
           <h2 className="font-bold text-2xl">Backend Technologies</h2>
           <p className="font-regular text-lg py-3 opacity-75">
-            Node.js, RESTful API's, Express, Typescript, GraphQl, Postgres,
-            MongoDB, Serverless (Firebase).
+            Node.js, RESTful API's, Express, Typescript, MongoDB, Serverless
+            (Firebase).
           </p>
         </div>
         <div>
