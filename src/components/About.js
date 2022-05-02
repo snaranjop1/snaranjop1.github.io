@@ -12,22 +12,8 @@ export default function About(props) {
           <em>
             <span className="font-light text-xl">
               I’m Sergio Naranjo – a Software Engineer from Colombia. I
-              currently work as a {props.job} at{" "}
-              <a
-                className="font-medium border-solid border-b-2 border-orange hover:bg-orange transition-colors"
-                href={props.companyUrl}
-              >
-                <span>{props.company}</span>
-              </a>{" "}
-              and run{" "}
-              <a
-                className="font-medium border-solid border-b-2 border-orange hover:bg-orange transition-colors"
-                href="https://github.com/snaranjop1"
-              >
-                <span>Storeforce</span>
-              </a>
-              . Furthermore, I like to build top quality software, beautiful
-              UI’s and enhancing experiences.
+              specialize in building (and occasionally designing) exceptional
+              web digital experiences.
             </span>
           </em>
           <br />
@@ -40,10 +26,10 @@ export default function About(props) {
           joy of putting something on the internet while I was still in college.
           <br />
           <br />
-          Since the beginning of my journey I’ve been interested in web
-          development, specially in frontend development because I love the
-          UI/UX design. I also have backend development experience, but the
-          designer in me prefers to work in frontend.
+          Fast-forward to today, I’ve had the privilege of working with
+          different US-based clients doing web development, specially frontend
+          development. At the same time, I've been doing a master’s in high
+          performance web programming at La Salle in Barcelona.
           <br />
           <br />
           When I'm not developing, I'm either working on my side-projects or

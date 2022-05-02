@@ -8,9 +8,8 @@ export default function Skills() {
         <div>
           <p className="pt-6 font-regular w-full xl:w-2/5">
             In my developer journey, I've worked with different tools and
-            technologies, obtaining some experience and skills in web
-            development. I also love to learn about new or upcoming
-            technologies.
+            technologies, obtaining some experience in web development. I also
+            love to learn about new or upcoming technologies.
           </p>
         </div>
       </div>
