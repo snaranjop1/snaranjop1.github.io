@@ -4,11 +4,13 @@ import arrow from "../images/arrow-right.svg"
 export default function ProjectCard(props) {
   return (
     <div className="flex-col">
-      <img
-        src={props.img}
-        className="rounded-xl shadow-sm"
-        alt="project-img"
-      ></img>
+      <a href={props.url2} target="_blank" rel="noreferrer">
+        <img
+          src={props.img}
+          className="rounded-xl shadow-sm"
+          alt="project-img"
+        ></img>
+      </a>
       <div className="py-8">
         <a href={props.url2} target="_blank" rel="noreferrer">
           <h4 className="text-2xl font-bold hover:text-orange w-max">

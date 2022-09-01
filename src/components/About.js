@@ -26,10 +26,29 @@ export default function About(props) {
           joy of putting something on the internet while I was still in college.
           <br />
           <br />
+          From 2021 to 2022 I had the opportunity to make a master’s degree in
+          High Performance Web Programming at La Salle University in Barcelona.
+          This master helped me take a deep and fast overview of web
+          development, going from HTML/CSS/JS to Cloud deployment and
+          cybersecurity. I learned a lot about clean architectures, good
+          practices in software development and strategies to make high
+          performance web apps (Caching, Concurrency and Big Data). I also had
+          the opportunity to learn from experts, software development techniques
+          such as DDD and TDD and what they require to be applied in the best
+          way.
+          <br />
+          <br />
           Fast-forward to today, I’ve had the privilege of working with
           different US-based clients doing web development, specially frontend
-          development. At the same time, I've been doing a master’s in high
-          performance web programming at La Salle in Barcelona.
+          development. Currently I'm working as a {props.job} at{" "}
+          <a
+            className="border-solid border-b-2 border-orange hover:bg-orange transition-colors"
+            href={props.companyUrl}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {props.company}
+          </a>
           <br />
           <br />
           When I'm not developing, I'm either working on my side-projects or

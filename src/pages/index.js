@@ -28,12 +28,7 @@ export default function App({ data }) {
         />
       </Helmet>
       <Navbar />
-      <Home
-        job={metadata.job}
-        company={metadata.company}
-        companyUrl={metadata.companyUrl}
-        mainProjectUrl={metadata.projects[0].link}
-      />
+      <Home />
       <Work projects={metadata.projects} />
       <About
         job={metadata.job}

@@ -22,12 +22,13 @@ export default function Work(props) {
     <div className="py-20 gnrl-padding" id="work">
       <div className="pb-20">
         <h1 className="font-black text-4xl md:text-5xl uppercase">
-          Selected Work
+          Projects I'm Proud Of
         </h1>
         <div>
           <p className="pt-6 font-regular w-full xl:w-2/5">
             Over the years, I've had the opportunity to use my free time to
-            develop some web projects. Here's some of my work available online.
+            develop some cool web projects. Here's some of my best work
+            available online.
           </p>
         </div>
       </div>

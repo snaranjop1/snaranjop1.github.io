@@ -9,8 +9,8 @@ module.exports = {
   plugins: ["gatsby-plugin-postcss", "gatsby-plugin-react-helmet"],
   siteMetadata: {
     job: "Software Developer",
-    company: "Appspring Technologies",
-    companyUrl: "https://www.appspringtech.com/",
+    company: "HelloBUILD",
+    companyUrl: "https://www.hellobuild.co/",
     projects: [
       {
         id: 1,
