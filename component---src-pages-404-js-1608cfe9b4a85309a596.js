@@ -1,0 +1,2 @@
+(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[883],{616:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return c}});var u=t(294),o=t(444);function c(){return(0,u.useEffect)((function(){(0,o.c4)("/")}),[]),u.createElement("div",null,u.createElement("h1",null,"(404) NotFound Page"))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-1608cfe9b4a85309a596.js.map
